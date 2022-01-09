@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumber"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="64dp"
+        android:ems="10"
+        android:fontFamily="@font/quicksand_medium"
+        android:hint="@string/time"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/rest"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="61dp"
+        android:ems="10"
+        android:fontFamily="@font/quicksand_medium"
+        android:hint="@string/rest"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rest"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp"
+        android:layout_marginBottom="-48dp"
+        android:background="#E2BDF1"
+        android:fontFamily="@font/quicksand_bold"
+        android:onClick="enter"
+        android:text="Click here to enter" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="133dp"
+        android:layout_marginEnd="61dp"
+        android:ems="10"
+        android:fontFamily="@font/quicksand_medium"
+        android:hint="@string/num_exercises"
+        android:inputType="number" />
+
+</RelativeLayout>

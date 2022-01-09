@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">block08</string>
+    <string name="num_exercises">Number of exercises: </string>
+    <string name="text_number">Number of exercises: </string>
+    <string name="time">Time per exercise:   </string>
+    <string name="rest">Rest time:           </string>
+</resources>
